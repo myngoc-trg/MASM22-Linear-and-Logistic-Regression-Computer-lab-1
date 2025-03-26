@@ -42,6 +42,7 @@ ggplot(Pb_myregion, aes(x = year, y = Pb)) + geom_point()
 Does the relationship look linear? Should it be linear?
 1.A(b). The measurements started in 1975 and it would be more resonable to use that as a starting point
 instead of year = 0. Replot the data using x = year - 1975 instead of x = year.
+
 1.A(c). Ignore the non-linear appearance and fit a linear regression model Yi = β0 + β1xi + εi where
 Y = Pb and x = I(year - 1975). The I() is necessary in order to use a function, ”-”
 = ”subtraction”, that R could confuse with ”-” = ”leave this variable out”. Calculate the β-
