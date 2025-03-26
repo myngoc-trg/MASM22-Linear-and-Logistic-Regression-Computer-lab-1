@@ -40,6 +40,7 @@ amount of mg lead per kg dried moss. We are interested in how fast the lead conc
 ###1.A(a)####
 ggplot(Pb_myregion, aes(x = year, y = Pb)) + geom_point()
 Does the relationship look linear? Should it be linear?
+
 1.A(b). The measurements started in 1975 and it would be more resonable to use that as a starting point
 instead of year = 0. Replot the data using x = year - 1975 instead of x = year.
 
